@@ -52,5 +52,10 @@ public class AccessoryItemTest {
         assertEquals(12.50,accessoryItem.getSalePrice(),0.0);
     }
 
+    @Test
+    public void calculateAccessoryItemMarkup(){
+        assertEquals(5.00,accessoryItem.calculateMarkup(),0.0);
+    }
+
 
 }
