@@ -17,4 +17,5 @@ public class BrassItem extends Item{
     public void setBrass(Brass brass) {
         this.brass = brass;
     }
+
 }
